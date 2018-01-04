@@ -1,0 +1,177 @@
+
+/*-----------------------------------*/
+/* Pagination */
+/*-----------------------------------*/
+
+.tf_pagination {float:right;margin:10px 0px 0 0;}
+
+.tf_pagination .inner {
+    display:inline-block;
+    font-size:14px;
+    font-weight: 700;
+    text-align:center;
+}
+
+/* Pagination Style 1 */
+
+.tf_pagination .page-numbers,
+.tf_pagination .page_prev,
+.tf_pagination .page_next {
+    float:left;
+    margin-right:14px;
+    width:26px;
+    height:26px;
+    line-height: 26px;
+    background:#e87352;
+    border-radius: 50%;
+}
+.tf_pagination .page_next {margin-right:0;}
+.tf_pagination .page-numbers {color: #fff;}
+
+.tf_pagination .page-numbers:hover,
+.tf_pagination .page_current,
+.tf_pagination .page_prev:hover,
+.tf_pagination .page_next:hover{
+    color:#fff;
+    background:#E55F39;
+}
+.tf_pagination .page_prev span,
+.tf_pagination .page_next span {
+    display: inline-block;
+    width:9px;
+    height:11px;
+    background: url(images/pagination.png) left top no-repeat;
+}
+.tf_pagination .page_next span {
+    background-position:  right top;
+}
+
+/* Pagination Style 2 */
+
+.tf_pagination.style2 .page-numbers,
+.tf_pagination.style2 .page_prev,
+.tf_pagination.style2 .page_next {
+    line-height: 22px;
+    background: none;
+}
+.tf_pagination.style2 .page-numbers,
+.tf_pagination.style2 .page_prev,
+.tf_pagination.style2 .page_next {
+    border: 2px solid #fff;
+}
+.tf_pagination.style2 .page-numbers:hover,
+.tf_pagination.style2 .page_current,
+.tf_pagination.style2 .page_prev:hover,
+.tf_pagination.style2 .page_next:hover{
+    border: 2px solid #ccc;
+}
+
+/* Pagination Style 3 */
+
+.tf_pagination.style3 .inner {font-size:11px;}
+.tf_pagination.style3 .inner a{
+text-decoration:none;
+}
+.tf_pagination.style3 .page-numbers,
+.tf_pagination.style3 .page_prev,
+.tf_pagination.style3 .page_next {
+    margin-right:1px;
+    margin-bottom: 1px;
+    background:#fff;
+    border-radius: 0;
+    color: #8895a3;
+	border:1px solid #eee;
+}
+
+.tf_pagination.style3 .page_more
+{
+    float:left;
+    margin-right:1px;
+    width:26px;
+    height:26px;
+    line-height: 26px;
+    border:1px solid #eee;
+	color:#888;
+    background:#eee;
+}
+.tf_pagination.style3 .page_more:hover
+{
+ color:#888;
+ background:#eee;
+}
+.tf_pagination.style3 .page-numbers:hover,
+.tf_pagination.style3 .page_current,
+.tf_pagination.style3 .page_prev:hover,
+.tf_pagination.style3 .page_next:hover{
+    color:#fff;
+    background:#3bbec0;
+}
+.tf_pagination.style3.red .page-numbers:hover,
+.tf_pagination.style3.red .page_current,
+.tf_pagination.style3.red .page_prev:hover,
+.tf_pagination.style3.red .page_next:hover{
+    background:#e87352;
+}
+.tf_pagination.style3 .page_prev span,
+.tf_pagination.style3 .page_next span {
+    display: inline;
+    background: none;
+    font-size:16px;
+  
+}
+
+/* Pagination Style 3 Small */
+
+.tf_pagination.style3.small .page-numbers,
+.tf_pagination.style3.small .page_prev,
+.tf_pagination.style3.small .page_next {
+    margin-right:0;
+    width:33px;
+    border-right: 1px solid #bbc4cc;
+    position: relative;
+}
+.tf_pagination.style3.small .page_next{
+    width:32px;
+    border-right: 0 none;
+}
+
+.tf_pagination.style3.small .page-numbers{
+    font-family: 'Glyphicons Halflings';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+}
+.tf_pagination.style3.small .page-numbers:before{content:'\e011';}
+
+/*Pagination Style 3 Mini*/
+
+.tf_pagination.style3.mini .page_prev,
+.tf_pagination.style3.mini .page_next {
+    margin-right:0;
+}
+
+/*================================================> Pagination Style 4 */
+.pg_aku_home{
+
+box-shadow: 1px 1px 1px rgba(0,0,0,.05);
+font-size:12px;
+font-weight:bold;
+border:1px solid #eee;
+margin:0 0 10px 0;
+width:99%;
+
+position:relative;
+overflow:hidden;
+}
+.tf_pagination4 {color:#000;display:inline;float:right;background:#eee;padding:10px;border:1px solid #eee;}
+.pg_judul{display:inline;float:left;width:50%;padding:10px;}
+
+.tf_pagination4 a{color:#888;}
+.tf_pagination4 a:hover{color:#000;}
+
+.page_per{
+background:#fff;
+margin-top:-5px;
+}
