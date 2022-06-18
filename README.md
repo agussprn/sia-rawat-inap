@@ -30,14 +30,4 @@
  Hormat Saya,
  
  Agus Supriyono
- -------------------------------------------------------------------------
- email  : agussprn@gmail.com
- WA 	: 082242136409
- BB	: 21C2434B
- -------------------------------------------------------------------------
- Ingin main kerumah ? Boleh silahkan main saja ke alamat :
- Kalipenten, RT44/RW22 Kaliagung Sentolo Kulon Progo Yogyakarta 
- -------------------------------------------------------------------------
- Ingin membantu Agus lebih berkembang ? Diterima dengan senang hati,
- dan semoga menjadi amal kebaikan bagi Anda, Donasi ke :
- Bank BRI a/n Agus Supriyono, no : 
+   
